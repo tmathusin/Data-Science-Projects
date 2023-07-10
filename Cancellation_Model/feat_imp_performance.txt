@@ -1,0 +1,52 @@
+df_raw3
+['MCC: 0.16007 / 0.13143', 'F1: 0.27060 / 0.26006', 'AUC: 0.64031 / 0.62245', 'AUC PR: 0.24649 / 0.21874', 'Accuracy: 0.87903 / 0.87777', 'Logloss: 0.35843 / 0.36233']
+['ONS_%people_working_FT', 'ManufacturerBrandCode', 'ONS_avg_age', 'PlansAcceptedPast1YearCount', 'PlanLiveCount', 'ClientAccountDesc', 'PlansActivePast5yrCount', 'AppAge', 'ClientGroupDesc', 'PurchasePrice', 'ApplianceCode', 'Fee', 'ONS_n_families_per_population', 'ONS_avg_dependent_children_per_family', 'ONS_bedrooms per rooms', 'ONS_avg_distance_travelled_to_work(km)', 'price_diff', 'ONS_%people_working_49+', 'GoodsColour', 'ONS_avg_household_size']
+              precision    recall  f1-score   support
+
+           0       0.90      0.67      0.77     62513
+           1       0.18      0.49      0.26      8899
+
+    accuracy                           0.65     71412
+   macro avg       0.54      0.58      0.51     71412
+weighted avg       0.81      0.65      0.71     71412
+
+AUC of cross-validated holdout predictions: 0.6167349119907137
+df_raw6
+['MCC: 0.17107 / 0.14294', 'F1: 0.33489 / 0.32056', 'AUC: 0.64317 / 0.62335', 'AUC PR: 0.31089 / 0.27792', 'Accuracy: 0.83652 / 0.83725', 'Logloss: 0.43212 / 0.43311']
+['PlansAcceptedPast1YearCount', 'PlanLiveCount', 'ManufacturerBrandCode', 'AppAge', 'ONS_avg_age', 'ClientAccountDesc', 'ONS_%people_working_FT', 'PurchasePrice', 'PlansAcceptedPast5YearCount', 'ApplianceCode', 'ClientGroupDesc', 'GoodsColour', 'PlansActivePast5yrCount', 'ONS_avg_rooms', 'offertotalprice', 'ONS_%people_working_49+', 'ONS_avg_dependent_children_per_family', 'ONS_n_families_per_population', 'price_diff', 'Fee']
+              precision    recall  f1-score   support
+
+           0       0.88      0.58      0.70     45096
+           1       0.22      0.59      0.32      9012
+
+    accuracy                           0.58     54108
+   macro avg       0.55      0.58      0.51     54108
+weighted avg       0.77      0.58      0.64     54108
+
+AUC of cross-validated holdout predictions: 0.6213818337156749
+df_raw9
+['MCC: 0.18542 / 0.15537', 'F1: 0.37972 / 0.36394', 'AUC: 0.64900 / 0.62206', 'AUC PR: 0.36261 / 0.32620', 'Accuracy: 0.80618 / 0.80402', 'Logloss: 0.47727 / 0.48199']
+['PlansAcceptedPast1YearCount', 'PlanLiveCount', 'AppAge', 'ManufacturerBrandCode', 'ONS_%people_working_FT', 'ClientAccountDesc', 'ONS_avg_age', 'PlansAcceptedPast5YearCount', 'GoodsColour', 'PurchasePrice', 'ApplianceCode', 'ClientGroupDesc', 'ONS_avg_dependent_children_per_family', 'relFee', 'ONS_n_families_per_population', 'ONS_occupation_rate', 'HPI_SalesVolume', 'ONS_avg_rooms', 'ONS_%people_working_49+', 'ONS_avg_bedrooms']
+              precision    recall  f1-score   support
+
+           0       0.85      0.54      0.66     26819
+           1       0.25      0.62      0.36      6745
+
+    accuracy                           0.56     33564
+   macro avg       0.55      0.58      0.51     33564
+weighted avg       0.73      0.56      0.60     33564
+
+AUC of cross-validated holdout predictions: 0.6193296622321162
+df_raw12
+['MCC: 0.25939 / 0.17274', 'F1: 0.45015 / 0.41017', 'AUC: 0.69575 / 0.63473', 'AUC PR: 0.46292 / 0.37695', 'Accuracy: 0.78679 / 0.77435', 'Logloss: 0.50202 / 0.51991']
+['ClientAccountDesc', 'AppAge', 'PlansAcceptedPast1YearCount', 'PlanLiveCount', 'ManufacturerBrandCode', 'ONS_%people_working_FT', 'ONS_avg_bedrooms', 'PlansAcceptedPast5YearCount', 'ONS_population_density', 'ApplianceCode', 'ClientGroupDesc', 'ONS_avg_rooms', 'ONS_avg_age', 'HPI_AveragePrice', 'ONS_avg_dependent_children_per_family', 'HPI_SalesVolume', 'ONS_n_families_per_population', 'ONS_%people_working_49+', 'ONS_n_families', 'relFee']
+              precision    recall  f1-score   support
+
+           0       0.83      0.60      0.70     10246
+           1       0.31      0.58      0.41      3133
+
+    accuracy                           0.60     13379
+   macro avg       0.57      0.59      0.55     13379
+weighted avg       0.71      0.60      0.63     13379
+
+AUC of cross-validated holdout predictions: 0.6342919652432736

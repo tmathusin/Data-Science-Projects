@@ -1,0 +1,52 @@
+df_raw3
+['ONS_%people_working_FT', 'ONS_%people_working_49+', 'ONS_n_families_per_population', 'AppAge', 'ONS_avg_dependent_children_per_family', 'ONS_bedrooms per rooms', 'ManufacturerBrandCode', 'ONS_avg_household_size', 'Fee', 'ONS_avg_age', 'ONS_avg_distance_travelled_to_work(km)', 'PurchasePrice', 'PlansActivePast5yrCount', 'ClientAccountDesc', 'PlanLiveCount', 'PlansAcceptedPast1YearCount', 'ApplianceCode', 'ClientGroupDesc', 'price_diff', 'GoodsColour']
+['MCC: 0.41232 / 0.40869', 'F1: 0.44849 / 0.44576', 'AUC: 0.80901 / 0.80658', 'AUC PR: 0.50275 / 0.49822', 'Accuracy: 0.89825 / 0.89838', 'Logloss: 0.35628 / 0.35671', 'KS: 0.42310']
+              precision    recall  f1-score   support
+
+           0       0.92      0.94      0.93     62513
+           1       0.51      0.40      0.45      8899
+
+    accuracy                           0.88     71412
+   macro avg       0.71      0.67      0.69     71412
+weighted avg       0.87      0.88      0.87     71412
+
+AUC of cross-validated holdout predictions: 0.629703813060494
+df_raw6
+['ONS_%people_working_FT', 'ONS_avg_dependent_children_per_family', 'ONS_n_families_per_population', 'ONS_avg_age', 'AppAge', 'ONS_avg_rooms', 'PurchasePrice', 'ONS_%people_working_49+', 'ManufacturerBrandCode', 'ClientAccountDesc', 'offertotalprice', 'price_diff', 'Fee', 'PlanLiveCount', 'PlansAcceptedPast1YearCount', 'ApplianceCode', 'PlansActivePast5yrCount', 'PlansAcceptedPast5YearCount', 'ClientGroupDesc', 'GoodsColour']
+['MCC: 0.50991 / 0.50871', 'F1: 0.56699 / 0.56758', 'AUC: 0.85259 / 0.85516', 'AUC PR: 0.65004 / 0.64969', 'Accuracy: 0.88104 / 0.88231', 'Logloss: 0.42162 / 0.41772', 'KS: 0.50669']
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92     45096
+           1       0.62      0.52      0.57      9012
+
+    accuracy                           0.87     54108
+   macro avg       0.76      0.73      0.74     54108
+weighted avg       0.86      0.87      0.86     54108
+
+AUC of cross-validated holdout predictions: 0.6326627847071109
+df_raw9
+['ONS_%people_working_FT', 'ONS_n_families_per_population', 'AppAge', 'HPI_SalesVolume', 'ONS_avg_bedrooms', 'ONS_occupation_rate', 'ONS_avg_dependent_children_per_family', 'ONS_avg_age', 'ONS_avg_rooms', 'ONS_%people_working_49+', 'ApplianceCode', 'PurchasePrice', 'relFee', 'PlansAcceptedPast1YearCount', 'ClientGroupDesc', 'PlansAcceptedPast5YearCount', 'ClientAccountDesc', 'ManufacturerBrandCode', 'PlanLiveCount', 'GoodsColour']
+['MCC: 0.60042 / 0.60236', 'F1: 0.66808 / 0.66529', 'AUC: 0.89834 / 0.89899', 'AUC PR: 0.76784 / 0.76780', 'Accuracy: 0.88221 / 0.88354', 'Logloss: 0.44648 / 0.44499', 'KS: 0.60374']
+              precision    recall  f1-score   support
+
+           0       0.91      0.93      0.92     26819
+           1       0.70      0.63      0.66      6745
+
+    accuracy                           0.87     33564
+   macro avg       0.81      0.78      0.79     33564
+weighted avg       0.87      0.87      0.87     33564
+
+AUC of cross-validated holdout predictions: 0.6613273010644721
+df_raw12
+['AppAge', 'ONS_n_families_per_population', 'ONS_%people_working_FT', 'ONS_%people_working_49+', 'ONS_avg_bedrooms', 'ONS_avg_age', 'HPI_AveragePrice', 'ONS_population_density', 'ONS_n_families', 'ApplianceCode', 'ONS_avg_rooms', 'ONS_avg_dependent_children_per_family', 'HPI_SalesVolume', 'relFee', 'ClientGroupDesc', 'ClientAccountDesc', 'ManufacturerBrandCode', 'PlansAcceptedPast5YearCount', 'PlansAcceptedPast1YearCount', 'PlanLiveCount']
+['MCC: 0.85214 / 0.84574', 'F1: 0.88624 / 0.88037', 'AUC: 0.98432 / 0.98418', 'AUC PR: 0.95720 / 0.95628', 'Accuracy: 0.94745 / 0.94574', 'Logloss: 0.38738 / 0.38820', 'KS: 0.85741']
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96     10246
+           1       0.89      0.87      0.88      3133
+
+    accuracy                           0.94     13379
+   macro avg       0.92      0.92      0.92     13379
+weighted avg       0.94      0.94      0.94     13379
+
+AUC of cross-validated holdout predictions: 0.7341276412851518

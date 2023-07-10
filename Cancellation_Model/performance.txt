@@ -1,0 +1,52 @@
+df_raw3
+['ManufacturerBrandCode', 'ONS_%people_working_FT', 'ONS_avg_age', 'PlansAcceptedPast1YearCount', 'PlanLiveCount', 'ClientAccountDesc', 'PurchasePrice', 'AppAge', 'PlansActivePast5yrCount', 'ClientGroupDesc', 'ApplianceCode', 'ONS_n_families_per_population', 'Fee', 'price_diff', 'ONS_%people_working_49+', 'ONS_avg_distance_travelled_to_work(km)', 'ONS_avg_household_size', 'ONS_avg_dependent_children_per_family', 'ONS_bedrooms per rooms', 'GoodsColour']
+['MCC: 0.15283 / 0.12671', 'F1: 0.26612 / 0.25665', 'AUC: 0.63350 / 0.61699', 'AUC PR: 0.23835 / 0.21159', 'Accuracy: 0.87872 / 0.87771', 'Logloss: 0.35945 / 0.36331']
+              precision    recall  f1-score   support
+
+           0       0.90      0.65      0.75     62513
+           1       0.17      0.51      0.25      8899
+
+    accuracy                           0.63     71412
+   macro avg       0.54      0.58      0.50     71412
+weighted avg       0.81      0.63      0.69     71412
+
+AUC of cross-validated holdout predictions: 0.6124910688870061
+df_raw6
+['PlansAcceptedPast1YearCount', 'PlanLiveCount', 'ManufacturerBrandCode', 'ONS_avg_age', 'AppAge', 'ONS_%people_working_FT', 'ClientAccountDesc', 'PurchasePrice', 'ApplianceCode', 'ClientGroupDesc', 'PlansAcceptedPast5YearCount', 'ONS_avg_rooms', 'offertotalprice', 'GoodsColour', 'ONS_%people_working_49+', 'ONS_n_families_per_population', 'PlansActivePast5yrCount', 'ONS_avg_dependent_children_per_family', 'price_diff', 'Fee']
+['MCC: 0.16166 / 0.13653', 'F1: 0.32893 / 0.31748', 'AUC: 0.63597 / 0.61917', 'AUC PR: 0.30214 / 0.27455', 'Accuracy: 0.83592 / 0.83720', 'Logloss: 0.43355 / 0.43380']
+              precision    recall  f1-score   support
+
+           0       0.87      0.58      0.70     45096
+           1       0.22      0.57      0.31      9012
+
+    accuracy                           0.58     54108
+   macro avg       0.54      0.58      0.51     54108
+weighted avg       0.76      0.58      0.63     54108
+
+AUC of cross-validated holdout predictions: 0.6178913288011146
+df_raw9
+['PlansAcceptedPast1YearCount', 'PlanLiveCount', 'AppAge', 'ONS_%people_working_FT', 'ManufacturerBrandCode', 'ClientAccountDesc', 'ONS_avg_age', 'ApplianceCode', 'PlansAcceptedPast5YearCount', 'PurchasePrice', 'ClientGroupDesc', 'GoodsColour', 'ONS_avg_dependent_children_per_family', 'ONS_n_families_per_population', 'ONS_%people_working_49+', 'ONS_avg_bedrooms', 'ONS_avg_rooms', 'relFee', 'HPI_SalesVolume', 'ONS_occupation_rate']
+['MCC: 0.17833 / 0.15031', 'F1: 0.37458 / 0.36054', 'AUC: 0.64059 / 0.61541', 'AUC PR: 0.35239 / 0.31952', 'Accuracy: 0.80545 / 0.80369', 'Logloss: 0.47884 / 0.48320']
+              precision    recall  f1-score   support
+
+           0       0.85      0.52      0.65     26819
+           1       0.25      0.63      0.36      6745
+
+    accuracy                           0.54     33564
+   macro avg       0.55      0.58      0.50     33564
+weighted avg       0.73      0.54      0.59     33564
+
+AUC of cross-validated holdout predictions: 0.6148180511920208
+df_raw12
+['ClientAccountDesc', 'AppAge', 'PlanLiveCount', 'ManufacturerBrandCode', 'ONS_%people_working_FT', 'PlansAcceptedPast1YearCount', 'ApplianceCode', 'ONS_avg_bedrooms', 'ONS_n_families', 'ONS_population_density', 'PlansAcceptedPast5YearCount', 'ClientGroupDesc', 'HPI_SalesVolume', 'ONS_n_families_per_population', 'ONS_avg_dependent_children_per_family', 'HPI_AveragePrice', 'ONS_avg_rooms', 'ONS_%people_working_49+', 'ONS_avg_age', 'relFee']
+['MCC: 0.24179 / 0.16305', 'F1: 0.43745 / 0.40802', 'AUC: 0.68018 / 0.62590', 'AUC PR: 0.44446 / 0.36578', 'Accuracy: 0.78472 / 0.77211', 'Logloss: 0.50562 / 0.52230']
+              precision    recall  f1-score   support
+
+           0       0.83      0.56      0.67     10246
+           1       0.30      0.61      0.40      3133
+
+    accuracy                           0.57     13379
+   macro avg       0.56      0.59      0.53     13379
+weighted avg       0.70      0.57      0.60     13379
+
+AUC of cross-validated holdout predictions: 0.6299852868952291
